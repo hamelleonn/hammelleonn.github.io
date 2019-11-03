@@ -1,0 +1,90 @@
+body{
+    background-image: url(phfon.jpg);
+    font-family: 'Press Start 2P';
+}
+
+#phlogo{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 79%;
+    top: 3.6%;
+}
+
+#al{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 15%;
+    left: 32%;
+    width: 30%;
+}
+
+
+#ault{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    top: 10%;
+    left: 1%;
+    
+}
+
+#ge{
+    position: absolute;
+    width: 450px;
+    height: 250px;
+    top: 25%;
+    left: 63.5%;
+}
+
+p{
+    color: blueviolet;
+}
+
+#golo{
+    position: absolute;
+    top: 50%;
+
+}
+
+#sonya{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 67%;
+
+}
+
+#af{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 67%;
+    left: 55%;
+}
+
+#cvv{
+    position: absolute;
+    font-size: small;
+    left: 15%;
+    top: 67%;
+    color: greenyellow;
+}
+
+#zxcc{
+    position: absolute;
+    font-size: small;
+    color: greenyellow;
+    top: 65%;
+    left: 70%;
+}
+
+#ppp{
+    position: fixed;
+    top: 2%;
+    left: 90%;
+    width: 100px;
+    height: 100px;
+    
+}

@@ -1,0 +1,102 @@
+body {
+    font-family: 'Press Start 2P';
+    background-image:url('gm.jpg')
+   }
+   
+#videog{   
+    color: white;
+    position: absolute;
+    top: 1%;
+    left: 10%;
+}   
+
+#my{
+    position: absolute;
+    top: 13%;
+    left: 64%;
+    color: white;
+}
+
+#top{
+    color: white;
+    position: absolute;
+    top: 18%;
+    left: 5%;
+    font-size: 2.1em;
+    outline: 5px solid red;
+}
+
+#csgo{
+    position: absolute;
+    top:40%;
+    left: 1%;
+    color: white;
+  
+}
+
+#mk{
+    position: absolute;
+    top:40%;
+    left:40%;
+    color: white;
+    
+}
+
+#mar{
+    position: absolute;
+    top:40%;
+    left:70%;
+    color: white;
+    
+}
+
+#csgoj{
+    position: absolute;
+    top:47%;
+    left:8%;
+    height: 150px;
+    width: 300px;
+    outline: 5px solid red;
+}
+
+#mkj{
+    position: absolute;
+    top:47%;
+    left:39.3%;
+    height: 150px;
+    width: 300px;
+    outline: 5px solid red;
+}
+
+#marj{
+    position: absolute;
+    top:47%;
+    left:70%;
+    height: 150px;
+    width: 300px;
+    outline: 5px solid red;
+}
+
+#marios{
+ height: 60px;
+ width: 60px;
+
+}
+
+ a {
+    position: absolute;
+    top: 80%;
+    left: 35%;
+    font-size: 2.4em;
+    color: white;
+    outline: 5px solid red;
+}
+
+#coin{
+    width: 50px;
+    height: 50px;
+}
+
+a:hover{
+ color: red;
+}

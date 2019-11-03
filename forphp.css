@@ -1,0 +1,45 @@
+body{
+    font-family: 'Press Start 2P';
+    background-image: url(vvv.png);
+
+}
+
+#e{
+    position: absolute;
+    left: 46%;
+     top: 2%;
+     font-family: 'Press Start 2P';
+}
+
+#n{
+    position: absolute;
+    left: 46%;
+    top: 7%;
+    font-family: 'Press Start 2P';
+}
+
+#p{
+    position: absolute;
+    left: 46%;
+    top: 13%;
+    font-family: 'Press Start 2P';
+}
+
+#m{
+    position: absolute;
+    left: 46%;
+    font-family: 'Press Start 2P';
+    top:18%
+
+}
+
+#bu{
+    color: chartreuse;
+    background-color: darkmagenta;
+    position: absolute;
+    height: 150px;
+    width: 350px;
+    top: 26%;
+    left: 43%;
+    font-family: 'Press Start 2P';
+}

@@ -1,0 +1,200 @@
+body{
+    background-image:url('prof.jpg');
+    color: white;
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    font-family: 'Press Start 2P', cursive;
+    color: white;
+}
+
+#proq {
+    font-size: 3.0em;
+    color: white;
+    letter-spacing: -3px;
+    font-weight: 400;
+    text-transform: uppercase;
+    animation: blur 3.0s ease-out infinite;
+    text-shadow: 0px 0px 10px white, 0px 0px 7px white;
+    font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    top: 2%;
+    left: 30%;
+    
+  }
+  
+  @keyframes blur {
+    from {
+      text-shadow:0px 0px 10px white,
+        0px 0px 10px #e616e6, 
+        0px 0px 25px #ca12b2,
+        0px 0px 25px  violet,
+        0px 0px 25px white,
+        0px 0px 25px whitesmoke,
+        0px 0px 50px white,
+        0px 0px 50px white,
+        0px 0px 50px white,
+        0px 0px 150px white,
+        0px 10px 100px white,
+        0px 10px 100px white,
+        0px 10px 100px white,
+        0px 10px 100px white,
+        0px -10px 100px white,
+        0px -10px 100px white,
+        0px -10px 100px white,
+        0px -10px 100px white;
+  
+    }
+  }
+  
+#zxc{
+  position: absolute;
+  top: 16%;
+  font-size: 1.34em;
+}
+
+#youtube{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 17%;
+  left: 83%;
+  outline: 5px solid rgb(179, 16, 179);
+}
+
+#progahoga{
+  position: absolute;
+  width: 300px;
+   height: 200px;
+ top: 35%;
+ left: 70%;  
+ outline: 5px solid rgb(179, 16, 179);
+}
+
+
+#cvb{
+  position: absolute;
+  left: 16%;
+  top:29%;
+  align-content: center;
+  font-size: 1.34em;
+}
+
+#qwerty{
+  position: absolute;
+  font-size: 1.34em;
+  top:68%;
+  left:11%;
+} 
+
+}* { box-sizing: border-box; }
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  display: block;
+  text-decoration: none;
+  outline: none;
+  transition: .4s ease-in-out;
+  color: rgb(7, 71, 73);
+}
+.topmenu {
+  backface-visibility: hidden;
+  ;
+}
+.topmenu > li {
+  display: inline-block;
+  position: relative;
+  font-family: 'Press Start 2P', cursive;
+}
+.topmenu > li > a {
+  font-family: 'Press Start 2P', cursive;
+  height: 70px;
+  line-height: 70px;
+  padding: 0 30px;
+  font-weight: bold;
+  color: white;
+}
+.down:after {
+  
+  font-family: 'Press Start 2P', cursive;
+  
+}
+.topmenu li a:hover { color: white; }
+
+
+.submenu {
+ 
+  border: 5px solid rgb(73, 16, 35);
+  position: absolute;
+  left: 0;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 5;
+  width: 250px; 
+  transform: perspective(600px) rotateX(-90deg);
+  transform-origin: 0% 0%;
+  transition: 1.0s ease-in-out;
+}
+.topmenu > li:hover .submenu{
+  visibility: visible;
+  opacity: 1;
+  transform: perspective(600px) rotateX(0deg);
+}
+.submenu li a {
+  background-color: rgb(201, 25, 133);
+  font-size: 13px;
+  line-height: 36px;
+  padding: 0 25px;
+  font-family: 'Press Start 2P', cursive;
+}
+
+#jif{
+  position: absolute;
+  width: 240px;
+  height: 150px;
+  outline: 5px solid rgb(179, 16, 179);
+  top: 47%;
+  left: 40%;
+}
+
+#ppng{
+  position: absolute;
+  width: 230px;
+  height: 150px; 
+  top: 47%;
+  left: 3%;
+  outline: 5px solid rgb(179, 16, 179);
+}
+
+#ppng:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#jif:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+#youtube:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+#progahoga:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+
+
